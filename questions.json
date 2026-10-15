@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "question": "What is a primary goal of IT Service Continuity Management (ITSCM)?",
+    "question": "What type of exercises must be conducted regularly as an objective of ITSCM?",
     "options": [
-      "Replacing outdated IT infrastructure",
-      "Ensuring IT infrastructure and services can be recovered within agreed business timescales",
-      "Managing daily IT helpdesk tickets",
-      "Reducing overall IT department costs"
+      "Financial auditing exercises",
+      "Risk assessment and management exercises",
+      "Code review exercises",
+      "Team building exercises"
     ],
     "answer": 1,
-    "explanation": "ITSCM ensures required IT infrastructure and IT services can be recovered within required and agreed business timescales.[cite: 1]"
+    "explanation": "An objective of ITSCM is to conduct regular risk assessment and management exercises."
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "Change Management"
     ],
     "answer": 2,
-    "explanation": "The purpose and goal of ITSCM is to support the overall Business Continuity Management process.[cite: 1]"
+    "explanation": "The purpose and goal of ITSCM is to support the overall Business Continuity Management process."
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
       "Competitor Analysis"
     ],
     "answer": 1,
-    "explanation": "An objective of ITSCM is to perform regular Business Impact Analysis (BIA).[cite: 1]"
+    "explanation": "An objective of ITSCM is to perform regular Business Impact Analysis (BIA)."
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
       "External Auditors"
     ],
     "answer": 2,
-    "explanation": "The IT Service Continuity Manager is tasked to ensure ITSCM plans align with those of BCM.[cite: 2]"
+    "explanation": "The IT Service Continuity Manager is tasked to ensure ITSCM plans align with those of BCM."
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
       "Business information"
     ],
     "answer": 3,
-    "explanation": "Business information, along with IT and financial information, acts as an input to the process.[cite: 2]"
+    "explanation": "Business information, along with IT and financial information, acts as an input to the process."
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
       "IT information"
     ],
     "answer": 1,
-    "explanation": "Outputs of the process include plans for disaster recovery, testing, and crisis management.[cite: 2]"
+    "explanation": "Outputs of the process include plans for disaster recovery, testing, and crisis management."
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
       "Manages marketing budgets"
     ],
     "answer": 0,
-    "explanation": "The overview of ITSCM states that it manages risks that could seriously affect IT services.[cite: 1]"
+    "explanation": "The overview of ITSCM states that it manages risks that could seriously affect IT services."
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
       "The Financial Controller"
     ],
     "answer": 1,
-    "explanation": "The IT Service Continuity Manager undertakes reviews of the continuity plans.[cite: 2]"
+    "explanation": "The IT Service Continuity Manager undertakes reviews of the continuity plans."
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
       "Annual Leave Policy"
     ],
     "answer": 1,
-    "explanation": "A reviewed ITSCM policy is listed as a primary input.[cite: 2]"
+    "explanation": "A reviewed ITSCM policy is listed as a primary input."
   },
   {
     "id": 10,
@@ -117,6 +117,6 @@
       "Employee onboarding"
     ],
     "answer": 1,
-    "explanation": "An objective is to guide all other areas of the business and IT on continuity-related issues.[cite: 1]"
+    "explanation": "An objective is to guide all other areas of the business and IT on continuity-related issues."
   }
 ]
