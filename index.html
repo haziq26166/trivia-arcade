@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15102b">
+  <meta name="description" content="A retro pixel-art single-player trivia arcade.">
+  <title>Trivia Arcade — Insert Coin!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Trivia Arcade home"><span class="brand-icon">▣</span> PIXEL<span>QUIZ</span></a>
+      <div class="top-stats"><span>BEST <b id="top-best">00000</b></span><span class="sound-control"><button id="sound-toggle" class="tiny-btn" aria-pressed="true" title="Toggle sound">♫ SOUND ON</button></span></div>
+    </header>
+
+    <section id="home-screen" class="screen home-screen">
+      <div class="pixel-label"><span class="blink">▶</span> PLAYER 1 READY</div>
+      <h1>TRIVIA<br><span class="title-accent">ARCADE</span></h1>
+      <p class="subtitle">POWER UP YOUR BRAIN. BEAT THE CLOCK.</p>
+      <div class="hero-art" aria-hidden="true">
+        <div class="pixel-star star-a">✦</div><div class="pixel-star star-b">✧</div>
+        <div class="arcade-machine"><div class="machine-top">QUIZ<br>MASTER</div><div class="machine-screen"><span>?</span></div><div class="machine-controls"><i></i><i></i><b></b></div></div>
+        <div class="floating-chip chip-a">+100</div><div class="floating-chip chip-b">★ BONUS ★</div>
+      </div>
+      <div class="menu-card">
+        <div class="field-label">READY PLAYER ONE?</div>
+        <button id="start-btn" class="pixel-btn primary-btn"><span>▶</span> START GAME</button>
+        <p class="microcopy">4 ANSWERS · 15-SECOND TIMER · BIG PIXEL ENERGY</p>
+      </div>
+      <div class="feature-strip"><span>▣ QUESTIONS &amp; ANSWERS</span><span>◷ TIMED ROUNDS</span><span>★ ACHIEVEMENTS</span></div>
+    </section>
+
+    <section id="quiz-screen" class="screen quiz-screen hidden" aria-live="polite">
+      <div class="quiz-meta"><span class="question-count">QUESTION <b id="question-number">01</b><span class="muted"> / 50</span></span><span class="score-display">SCORE <b id="score">00000</b></span></div>
+      <div class="progress-track"><div id="progress-bar"></div></div>
+      <div class="timer-row"><div class="timer-label">TIME REMAINING</div><div class="timer-track"><div id="timer-bar"></div></div><div id="timer-number" class="timer-number">15</div></div>
+      <article class="question-card">
+        <div class="question-glyph" aria-hidden="true">?</div>
+        <p class="question-text" id="question-text">Loading question...</p>
+      </article>
+      <div id="answers" class="answers-grid"></div>
+      <div id="feedback" class="feedback" role="status">CHOOSE YOUR ANSWER!</div>
+      <div class="quiz-footer"><span>STREAK <b id="streak">×0</b></span><span>+100 PTS / CORRECT</span><button id="quit-btn" class="text-btn">QUIT RUN ↩</button></div>
+    </section>
+
+    <section id="result-screen" class="screen result-screen hidden">
+      <div class="pixel-label">RUN COMPLETE</div>
+      <div id="result-medal" class="result-medal">★</div>
+      <h2 id="result-title">NICE RUN!</h2>
+      <p id="result-message" class="subtitle">YOU MADE IT TO THE END.</p>
+      <div class="final-score-panel"><span>FINAL SCORE</span><strong id="final-score">00000</strong><div id="new-best" class="new-best hidden">★ NEW PERSONAL BEST ★</div></div>
+      <div class="result-stats"><div><span>ACCURACY</span><b id="accuracy">0%</b></div><div><span>CORRECT</span><b id="correct-count">0/15</b></div><div><span>BEST STREAK</span><b id="best-streak">0</b></div></div>
+      <div class="result-actions"><button id="again-btn" class="pixel-btn primary-btn">↻ PLAY AGAIN</button><button id="home-btn" class="pixel-btn secondary-btn">⌂ MAIN MENU</button></div>
+      <div class="review-box"><h3>★ ANSWER REVIEW</h3><div id="review-list"></div></div>
+    </section>
+
+    <section id="achievements-screen" class="screen achievements-screen hidden">
+      <div class="pixel-label">PLAYER RECORDS</div><h2>ACHIEVEMENTS</h2><p class="subtitle">EVERY RUN GETS YOU CLOSER TO LEGEND.</p>
+      <div id="achievement-list" class="achievement-list"></div>
+      <button id="achievements-home-btn" class="pixel-btn secondary-btn">↩ BACK TO MENU</button>
+    </section>
+
+    <footer class="page-footer"><span>TRIVIA ARCADE v1.0</span><span>MADE FOR THE HIGH SCORE HUNTERS</span></footer>
+    
+    <div id="explanation-modal" class="modal-overlay hidden">
+      <div class="modal-box">
+        <h3 class="modal-title">INCORRECT!</h3>
+        <p id="modal-explanation" class="modal-text"></p>
+        <button id="modal-continue-btn" class="pixel-btn primary-btn">CONTINUE ▶</button>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

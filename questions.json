@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "What is a primary goal of IT Service Continuity Management (ITSCM)?",
+    "options": [
+      "Replacing outdated IT infrastructure",
+      "Ensuring IT infrastructure and services can be recovered within agreed business timescales",
+      "Managing daily IT helpdesk tickets",
+      "Reducing overall IT department costs"
+    ],
+    "answer": 1,
+    "explanation": "ITSCM ensures required IT infrastructure and IT services can be recovered within required and agreed business timescales.[cite: 1]"
+  },
+  {
+    "id": 2,
+    "question": "Which overall process does ITSCM directly support?",
+    "options": [
+      "Financial Management",
+      "Human Resources Management",
+      "Business Continuity Management",
+      "Change Management"
+    ],
+    "answer": 2,
+    "explanation": "The purpose and goal of ITSCM is to support the overall Business Continuity Management process.[cite: 1]"
+  },
+  {
+    "id": 3,
+    "question": "What regular analysis must be performed as an objective of ITSCM?",
+    "options": [
+      "Code Review Analysis",
+      "Business Impact Analysis (BIA)",
+      "Market Trend Analysis",
+      "Competitor Analysis"
+    ],
+    "answer": 1,
+    "explanation": "An objective of ITSCM is to perform regular Business Impact Analysis (BIA).[cite: 1]"
+  },
+  {
+    "id": 4,
+    "question": "Who is responsible for ensuring ITSCM plans align with those of BCM?",
+    "options": [
+      "The CEO",
+      "IT Support Staff",
+      "IT Service Continuity Manager",
+      "External Auditors"
+    ],
+    "answer": 2,
+    "explanation": "The IT Service Continuity Manager is tasked to ensure ITSCM plans align with those of BCM.[cite: 2]"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is considered an input to the ITSCM process?",
+    "options": [
+      "Risk analyses",
+      "Business Impact Analysis",
+      "Plans for disaster recovery",
+      "Business information"
+    ],
+    "answer": 3,
+    "explanation": "Business information, along with IT and financial information, acts as an input to the process.[cite: 2]"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is an output of the ITSCM process?",
+    "options": [
+      "Financial information",
+      "Plans for disaster recovery, testing and crisis management",
+      "Reviewed ITSCM policy",
+      "IT information"
+    ],
+    "answer": 1,
+    "explanation": "Outputs of the process include plans for disaster recovery, testing, and crisis management.[cite: 2]"
+  },
+  {
+    "id": 7,
+    "question": "What is a core function outlined in the overview of ITSCM?",
+    "options": [
+      "Manages risks that could seriously affect IT services",
+      "Develops new software applications",
+      "Hires new IT personnel",
+      "Manages marketing budgets"
+    ],
+    "answer": 0,
+    "explanation": "The overview of ITSCM states that it manages risks that could seriously affect IT services.[cite: 1]"
+  },
+  {
+    "id": 8,
+    "question": "Who undertakes reviews of the continuity plans?",
+    "options": [
+      "The Helpdesk Manager",
+      "IT Service Continuity Manager",
+      "The Lead Developer",
+      "The Financial Controller"
+    ],
+    "answer": 1,
+    "explanation": "The IT Service Continuity Manager undertakes reviews of the continuity plans.[cite: 2]"
+  },
+  {
+    "id": 9,
+    "question": "Which policy forms part of the inputs for the ITSCM process?",
+    "options": [
+      "Remote Work Policy",
+      "Reviewed ITSCM policy",
+      "Social Media Policy",
+      "Annual Leave Policy"
+    ],
+    "answer": 1,
+    "explanation": "A reviewed ITSCM policy is listed as a primary input.[cite: 2]"
+  },
+  {
+    "id": 10,
+    "question": "What must ITSCM guide all other areas of the business and IT on?",
+    "options": [
+      "Coding standards",
+      "Continuity-related issues",
+      "Hardware procurement",
+      "Employee onboarding"
+    ],
+    "answer": 1,
+    "explanation": "An objective is to guide all other areas of the business and IT on continuity-related issues.[cite: 1]"
+  }
+]
